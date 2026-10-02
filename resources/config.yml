@@ -1,0 +1,5 @@
+bank-interest-time: 24
+bank-interest: 1.8%
+monetary-unit: ®
+default-cash: 0
+default-bank-cash: 0

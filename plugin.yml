@@ -1,0 +1,40 @@
+name: PixelPals-Economy-Manager
+version: 02.04.2024
+api: [1.0.3, 2.0.0, 3.0.0]
+main: EC_Manager\Main
+author: "tatanova"
+description: "PixelPals economy management plugin"
+
+commands:
+  cash:
+    description: "See your cash or see someone's cash"
+    permission: see.cash
+  send:
+    description: "Send cash to someone else"
+    permission: send.cash
+  bank:
+    description: "Use bank money"
+    permission: use.bank
+  top:
+    description: "See top most richest players"
+    permission: see.top
+  eco:
+    description: "Main economy command"
+    permission: main.eco
+
+permissions:
+  see.cash:
+    description: "Allows to see cash"
+    default: true
+  send.cash:
+    description: "Allows to send cash"
+    default: true
+  use.bank:
+    description: "Allows to use bank"
+    default: true
+  see.top:
+    description: "Allows to see top cash"
+    default: true
+  main.eco:
+    description: "Main economy permission"
+    default: op
